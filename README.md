@@ -17,7 +17,7 @@ polymerase chain reaction (PCR) that is commonly used in wet-lab settings to amp
 
 > q2.py takes as input 2 random DNA sequence --> usage: ./q2.py
 
-> **amplicon_align.py** accepts command-line arguments --> usage: ./amplicon_align.py -1 data/Pseudomonas_aeruginosa_PAO1.fna -2 data/Pseudomonas_protegens_CHA0.fna -p data/rpoD.fna -m 2000 --match 1 --mismatch=-1 --gap=-1
+**amplicon_align.py** accepts command-line arguments --> usage: ./amplicon_align.py -1 data/Pseudomonas_aeruginosa_PAO1.fna -2 data/Pseudomonas_protegens_CHA0.fna -p data/rpoD.fna -m 2000 --match 1 --mismatch=-1 --gap=-1
 1) performs isPCR to find amplicons in both assembly files (assuming 1 amplicon per assembly file)
 2) align the amplicons using needleman-wunsch algorithm
 3) reverse complement the second amplicon for possible better alternative alignment
